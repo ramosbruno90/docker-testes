@@ -1,0 +1,2 @@
+DEBUG:peewee:('SELECT `t1`.`id`, `t1`.`name`, `t1`.`email`, `t1`.`password`, `t1`.`is_active` FROM `user` AS `t1` WHERE (`t1`.`is_active` = %s)', [True])
+DEBUG:peewee:('SELECT `t1`.`id`, `t1`.`name`, `t1`.`email`, `t1`.`password`, `t1`.`is_active` FROM `user` AS `t1` WHERE (`t1`.`is_active` = %s)', [True])
