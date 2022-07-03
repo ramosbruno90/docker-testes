@@ -3,6 +3,7 @@ from flask import Flask
 # import routers
 from .config import Server
 from .repositories.base_repository import mysql_db
+from .routers.connection_router import connection_route
 from .routers.user_router import user_route
 
 app = Flask(__name__)
@@ -24,3 +25,4 @@ def _db_close(exc):
 
 # register client routers
 app.register_blueprint(user_route)
+app.register_blueprint(connection_route)

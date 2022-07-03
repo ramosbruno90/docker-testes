@@ -7,3 +7,4 @@ pymysql
 requests
 cython
 python-dotenv
+speedtest-cli
