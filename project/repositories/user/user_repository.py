@@ -7,6 +7,7 @@ from project.repositories.base_repository import BaseRepository
 class UserRepository(BaseRepository):
 
     id = AutoField(null=False)
+    public_id = CharField()
     name = CharField()
     email = CharField()
     password = CharField()
