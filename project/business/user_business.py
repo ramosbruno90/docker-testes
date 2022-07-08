@@ -12,7 +12,10 @@ class UserBusiness():
 
     def search_all(self):
         try:
-            users = list(UserRepository().select().where(
+            users = list(UserRepository().select(
+                UserRepository.public_id,
+                UserRepository.name,
+                UserRepository.email).where(
                 UserRepository.is_active == True).dicts())
             return users
         except:
