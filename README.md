@@ -2,7 +2,7 @@
 
 ###
 
-<p align="left">Reppositório com arquivos de configuração básicos para rodar um container com um endpoint que traz  dois registros de uma tabela Mysql.</p>
+<p align="left">Repositório com arquivos de configuração básicos para rodar um container com alguns endpoints.</p>
 
 ###
 
@@ -10,6 +10,6 @@
 
 ###
 
-<p align="left">Divirta-se!<br><br>PS (Existe um arquivo na pasta schema com os scripts de criação de um banco basicão)</p>
+<p align="left">Divirta-se!<br><br>PS (Existe um arquivo na pasta schema com os scripts de criação de um banco mysql basicão)</p>
 
 ###
